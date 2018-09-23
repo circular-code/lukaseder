@@ -218,6 +218,118 @@ body > * {
 
 /* custom style */
 
+article {
+  padding: 3rem;
+}
+
+header {
+  position: relative;
+}
+
+header article {
+  background: #2b2b2b;
+  color: #d2d2d2;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 5rem;
+  text-transform: UPPERCASE;
+  padding-bottom: 8rem;
+}
+
+header h1 {
+  color: #e08600;
+}
+
+header .col-content {
+  color: #d2d2d2;
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+#short {
+  background: #e08600;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  color: #2b2b2b;
+  font-size: 2.5rem;
+  transition: background 1s ease-in-out;
+}
+
+#short:hover {
+  background: orange;
+}
+
+#backgroundText {
+  position: absolute;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+#services {
+  background: #eaeaea;
+}
+
+#services p {
+  font-style: italic;
+}
+
+#services h2 {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #bfbfbf;
+  letter-spacing: 3px;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#services i {
+  padding: 2rem 3rem;
+  font-size: 6rem;
+  background: #d8d8d8;
+  color: #e08600;
+  vertical-align: top;
+  transition: background 1s ease-in-out;
+}
+
+#services i.fa:hover {
+  background: orange;
+  color: white;
+}
+
+.service-content {
+  display: inline-block;
+  width: calc(100% - 200px);
+  vertical-align: top;
+  padding: 0.5rem 1rem;
+}
+
+.service-content h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#testimonials i {
+  font-size: 1.2rem;
+  color: #d8d8d8;
+  margin: 0px 3px;
+}
+
+span.client {
+  margin-top: 0.5rem;
+  display: block;
+  font-weight: 700;
+}
+
+footer {
+  background: #2b2b2b;
+  color: #bfbfbf;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 2rem;
+  text-transform: UPPERCASE;
+  padding-bottom: 8rem;
+}
 
 /* media querries */
 
