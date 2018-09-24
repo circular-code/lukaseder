@@ -270,6 +270,7 @@ header .col-content {
   overflow: hidden;
   z-index: 1;
   max-height: 19rem;
+  color: #424242;
 }
 
 #services {
