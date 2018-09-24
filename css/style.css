@@ -236,6 +236,11 @@ header article {
   padding-bottom: 8rem;
 }
 
+header article > * {
+  position: relative;
+  z-index: 2;
+}
+
 header h1 {
   color: #e08600;
 }
@@ -263,6 +268,8 @@ header .col-content {
   position: absolute;
   max-height: 100%;
   overflow: hidden;
+  z-index: 1;
+  max-height: 19rem;
 }
 
 #services {
@@ -329,6 +336,21 @@ footer {
   font-size: 2rem;
   text-transform: UPPERCASE;
   padding-bottom: 8rem;
+}
+
+#keyGrafic {
+  position: absolute;
+  bottom: -30px;
+  right: 76px;
+  font-size: 0;
+}
+
+#keyGrafic > div {
+  background-color: #2b2b2b;
+  width: 20px;
+  height: 60px;
+  position: relative;
+  display: inline-block;
 }
 
 /* media querries */
